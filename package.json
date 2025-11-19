@@ -1,0 +1,18 @@
+{
+  "name": "@shieldos/dashboard",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Main web dashboard for ShieldOS on Solana.",
+  "scripts": {
+    "dev": "echo \"dev server not configured yet\"",
+    "build": "echo \"build not configured yet\"",
+    "lint": "echo \"lint not configured yet\"",
+    "test": "echo \"tests not configured yet\""
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

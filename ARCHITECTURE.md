@@ -158,7 +158,7 @@ ShieldOS behaves like a **modern sandboxed OS**, but for Web3 privacy workflows.
 ---
 
 ## 9. Repository Structure Summary
-
+```
 Shield-OS-dev/
 │
 ├── shieldos-core/ # cryptography + shared primitives
@@ -170,7 +170,7 @@ Shield-OS-dev/
 ├── shieldos-link/
 ├── shieldos-pay/
 └── modules/ # future modules
-
+```
 
 ---
 

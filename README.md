@@ -29,6 +29,24 @@ Planned structure for early development:
 /e2e # end-to-end tests (planned)
 /unit # unit tests for UI and logic
 
+## Architecture Role
+
+The dashboard acts as the **composition layer** for ShieldOS:
+
+- mounts modules like Mail, Drive, Vault, Pass, Link, and Pay into a single OS-like experience,
+- connects to `shieldos-core` for:
+  - wallet authentication,
+  - crypto helpers,
+  - shared types and constants,
+- manages:
+  - global session state,
+  - per-module routing,
+  - permission prompts,
+  - encrypted client-side state.
+
+All cryptographic and low-level primitives live in `shieldos-core`; the dashboard focuses on UX, state orchestration, and safe integration between modules.
+
+
 
 ## Principles
 

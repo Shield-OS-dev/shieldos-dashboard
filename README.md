@@ -46,7 +46,10 @@ The dashboard acts as the **composition layer** for ShieldOS:
 
 All cryptographic and low-level primitives live in `shieldos-core`; the dashboard focuses on UX, state orchestration, and safe integration between modules.
 
-
+## Architecture Context
+The dashboard is the orchestration layer of ShieldOS.  
+It mounts modules, manages permissions, handles navigation, and connects to `shieldos-core`.  
+No sensitive data is processed here — the dashboard focuses on safe module integration and OS-level UX.
 
 ## Principles
 
